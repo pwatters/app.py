@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Hello, BIS209!</h1><p>Welcome to your Azure test app.</p>"
+    return "<h1>Hello, Albo!</h1><p>Welcome to your Azure test app.</p>"
 
 @app.route("/echo", methods=["GET", "POST"])
 def echo():
